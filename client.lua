@@ -5,11 +5,16 @@ local toilets = Config.Toilets
     options = {
     {
       type = "client",
-      event = "razed-toilets:useToliet",
-      icon = Target.IconsHighLight["smallBins"],
-      label = Target.Label["smallBins"],
-      targeticon = Target.Icon["smallBins"],
+      event = "razed-toilet:useToilet",
+      label = "Use toilet",
+      --icon = , -- Not set yet
+      --targeticon = Target.Icon["smallBins"],
     }
   },
   distance = Config.TargetDistance,
 })
+
+RegisterNetEvent('razed-toliet:useToilet')
+
+if razed-toilet:useToilet = true then
+    ExecuteCommand()
