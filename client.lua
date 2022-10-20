@@ -14,26 +14,26 @@ local toilets = Config.Toilets
   distance = Config.TargetDistance,
 })
 
-RegisterNetEvent('razed-toliet:useToilet')
-AddEventHandler('razed-toliet:useToilet', function()
-    ExecuteCommand(
-        "e pee"
-    )
-    QBCore.Functions.Progressbar('Pee', 'Peeing...', 1500, false, true, {
-        disableMovement = true,
-        disableCarMovement = true,
-        disableMouse = false,
-        disableCombat = true
-        }, {}, {}, {}, function()
-            ExecuteCommand(
-                "e c"
-             )
-            TriggerClientEvent('QBCore:Notify', src, "You stopped peeing!")     
-        end, function()
-            ExecuteCommand(
-                "e c"
-            )
-            TriggerClientEvent('QBCore:Notify', src, "That was a nice stinker!")   
-            TriggerServerEvent('hud:server:RelieveStress', 10)  
-    end)
+RegisterNetEvent('razed-toilet:useToilet')
+AddEventHandler('razed-toilet:useToilet', function()
+  ExecuteCommand(
+    "e pee"
+)
+QBCore.Functions.Progressbar('Pee', 'Peeing...', 15000, false, true, {
+    disableMovement = true,
+    disableCarMovement = true,
+    disableMouse = false,
+    disableCombat = true
+    }, {}, {}, {}, function()
+        ExecuteCommand(
+            "e c"
+         )
+        TriggerClientEvent('QBCore:Notify', src, "You stopped peeing!")     
+    end, function()
+        ExecuteCommand(
+            "e c"
+        )
+
+        TriggerServerEvent('hud:server:RelieveStress', 10)  
+end)
 end)
