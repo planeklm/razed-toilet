@@ -15,6 +15,25 @@ local toilets = Config.Toilets
 })
 
 RegisterNetEvent('razed-toliet:useToilet')
-
-if razed-toilet:useToilet = true then
-    ExecuteCommand()
+AddEventHandler('razed-toliet:useToilet', function()
+    ExecuteCommand(
+        "e pee"
+    )
+    QBCore.Functions.Progressbar('Pee', 'Peeing...', 1500, false, true, {
+        disableMovement = true,
+        disableCarMovement = true,
+        disableMouse = false,
+        disableCombat = true
+        }, {}, {}, {}, function()
+            ExecuteCommand(
+                "e c"
+             )
+            TriggerClientEvent('QBCore:Notify', src, "You stopped peeing!")     
+        end, function()
+            ExecuteCommand(
+                "e c"
+            )
+            TriggerClientEvent('QBCore:Notify', src, "That was a nice stinker!")   
+            TriggerServerEvent('hud:server:RelieveStress', 10)  
+    end)
+end)
