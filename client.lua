@@ -1,8 +1,5 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 local toilets = Config.Toilets
-
-
-
  
  exports['qb-target']:AddTargetModel(toilets, {
     options = {
