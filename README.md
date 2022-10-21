@@ -13,7 +13,8 @@ You use your 3rd-eye (qb-target default) to interact with a toilet and you start
 * Easy to configure
 
 # Showcase
-![RazedTolietShowcase|video](upload://58ByzX5bCpPBAtVVB3NXX4Cuz8q.mp4)
+
+https://user-images.githubusercontent.com/91488137/197276146-aeede2a2-3c59-4208-ad86-f519e5b7e881.mp4
 This example is using a bench, you can set any prop in the config folder.
 
 # How To Install
