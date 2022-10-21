@@ -1,7 +1,7 @@
 # Toilet by Razed
 A simple toilet script for qbcore framework which utilizes interact-sound and dpemotes.
 
-![RazedToilets](https://user-images.githubusercontent.com/91488137/197047311-76a093e1-1586-474a-a2ce-190b9805a498.png)
+![RazedToliets](https://user-images.githubusercontent.com/91488137/197268489-2dd3def7-b472-4d89-9321-50853eef8a47.png)
 
 # How To Install
 Drag and drop `razed-toilet`\
