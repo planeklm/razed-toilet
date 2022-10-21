@@ -6,7 +6,7 @@ A simple toilet script for qbcore framework which utilizes interact-sound and dp
 # How To Install
 Drag and drop `razed-toilet`\
 In `server.cfg` add `ensure razed-toilet`\
-In `sounds` folder drag Pee.ogg to `interact-sound/client/html/sounds`
+In `sounds folder` drag `Pee.ogg to` `interact-sound/client/html/sounds`
 
 # Dependencies
 [qb-core](https://github.com/qbcore-framework/qb-core)\
