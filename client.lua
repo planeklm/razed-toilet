@@ -19,7 +19,7 @@ AddEventHandler('razed-toilet:useToilet', function()
   ExecuteCommand(
     "e pee"
 )
-QBCore.Functions.Progressbar('Pee', 'Peeing...', 15000, false, true, {
+QBCore.Functions.Progressbar('Pee', 'Peeing...', 7500, false, true, {
     disableMovement = true,
     disableCarMovement = true,
     disableMouse = false,
@@ -28,12 +28,11 @@ QBCore.Functions.Progressbar('Pee', 'Peeing...', 15000, false, true, {
         ExecuteCommand(
             "e c"
          )
-        TriggerClientEvent('QBCore:Notify', src, "You stopped peeing!")     
+         TriggerServerEvent('hud:server:RelieveStress', Config.relieveStress)  
     end, function()
         ExecuteCommand(
             "e c"
         )
-
-        TriggerServerEvent('hud:server:RelieveStress', 10)  
+        TriggerServerEvent('hud:server:GainStress', Config.gainStress)  
 end)
 end)
