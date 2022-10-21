@@ -19,6 +19,7 @@ AddEventHandler('razed-toilet:useToilet', function()
   ExecuteCommand(
     "e pee"
 )
+TriggerServerEvent("InteractSound_SV:PlayOnSource", "Pee", 0.3)
 QBCore.Functions.Progressbar('Pee', 'Peeing...', 16000, false, true, {
     disableMovement = true,
     disableCarMovement = true,
@@ -28,7 +29,6 @@ QBCore.Functions.Progressbar('Pee', 'Peeing...', 16000, false, true, {
         ExecuteCommand(
             "e c"
          )
-         TriggerServerEvent("InteractSound_SV:PlayOnSource", "Pee", 0.3)
          TriggerServerEvent('hud:server:RelieveStress', Config.relieveStress)  
     end, function()
         ExecuteCommand(
