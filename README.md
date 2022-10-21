@@ -14,5 +14,6 @@ In `sounds` drag `Pee.ogg` to `interact-sound/client/html/sounds`
 [interact-sound](https://github.com/qbcore-framework/interact-sound)\
 [dpemotes](https://github.com/andristum/dpemotes)
 
-# Collaboration
-FiveToes & Me.
+# Credits
+FiveToes - Idea and props\
+planeklm - Coding, etc
