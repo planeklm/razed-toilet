@@ -1,5 +1,5 @@
 # Toilet by Razed
-A simple toilet script for QBCORE framework which utilizes interact-sound and DPEmotes.
+A simple toilet script for qbcore framework which utilizes interact-sound and dpemotes.
 
 ![RazedToilets](https://user-images.githubusercontent.com/91488137/197047311-76a093e1-1586-474a-a2ce-190b9805a498.png)
 
