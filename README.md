@@ -14,9 +14,8 @@ You use your 3rd-eye (qb-target default) to interact with a toilet and you start
 
 # Showcase
 
-This example is using a bench, you can set any prop in the config folder.
-[qb-core](https://user-images.githubusercontent.com/91488137/197276146-aeede2a2-3c59-4208-ad86-f519e5b7e881.mp4)
-![SHOWCASERAZEDTOILET](https://user-images.githubusercontent.com/91488137/197276712-0f6b7aad-dff7-43de-a73a-ec85ba8fcd58.png)
+This example is using a bench, you can set any prop in the config folder.\
+[Video](https://user-images.githubusercontent.com/91488137/197276146-aeede2a2-3c59-4208-ad86-f519e5b7e881.mp4)
 
 # How To Install
 * Drag and drop `razed-toilet`
