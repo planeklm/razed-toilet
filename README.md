@@ -16,4 +16,4 @@ In `sounds` drag `Pee.ogg` to `interact-sound/client/html/sounds`
 
 # Credits
 FiveToes - Idea and props\
-planeklm - Coding, etc
+KLM - Coding, etc
