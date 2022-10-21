@@ -1,1 +1,0 @@
-'^5Version 1.0 - Up to date!'
