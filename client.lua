@@ -7,8 +7,7 @@ local toilets = Config.Toilets
       type = "client",
       event = "razed-toilet:useToilet",
       label = "Use toilet",
-      --icon = , -- Not set yet
-      --targeticon = Target.Icon["smallBins"],
+      icon = "fa-solid fa-toilet",
     }
   },
   distance = Config.TargetDistance,
