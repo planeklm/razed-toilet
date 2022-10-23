@@ -21,6 +21,7 @@ This example is using a bench, you can set any prop in the config folder.\
 * Drag and drop `razed-toilet`
 * In your `server.cfg` add `ensure razed-toilet`
 * In `sounds` drag `Pee.ogg` to `interact-sound/client/html/sounds`
+* In `sounds` drag `Poo.ogg` to `interact-sound/client/html/sounds`
 
 # Dependencies
 [qb-core](https://github.com/qbcore-framework/qb-core)\
