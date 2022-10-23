@@ -12,7 +12,7 @@ You use your 3rd-eye (qb-target default) to interact with a toilet and you start
 * Custom sounds
 * Easy to configure
 
-# Showcase
+# Preview
 https://user-images.githubusercontent.com/91488137/197402197-9337e2f2-a6a6-44ed-8717-210d2cd87af5.mp4
 
 # How To Install
