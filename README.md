@@ -1,7 +1,7 @@
 # Toilet by Razed
 **Hello FiveM community!👋**\
 We have created a simple toilet script for qbcore framework which utilizes interact-sound and dpemotes.
-You use your 3rd-eye (qb-target default) to interact with a toilet and you start peeing. If you finish peeing you relieve stress, however if you cancel you gain stress.
+You use your 3rd-eye (qb-target default) to interact with a toilet and you start peeing or pooing. If you finish peeing or pooing you relieve stress, however if you cancel you gain stress.
 
 ![RazedToliets](https://user-images.githubusercontent.com/91488137/197268489-2dd3def7-b472-4d89-9321-50853eef8a47.png)
 
