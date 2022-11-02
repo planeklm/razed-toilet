@@ -2,7 +2,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 local toilets = Config.Toilets
  
 
--- Stand Pee
+-- Sit Pee
  exports['qb-target']:AddTargetModel(toilets, {
     options = {
     {
@@ -39,7 +39,7 @@ QBCore.Functions.Progressbar('Pee', 'Peeing...', 16000, false, true, {
 end)
 end)
 
---Sit Pee
+--Stand Pee
  exports['qb-target']:AddTargetModel(toilets, {
     options = {
     {
