@@ -8,7 +8,7 @@ local toilets = Config.Toilets
     {
       type = "client",
       event = "razed-toilet:useToiletPee",
-      label = "Use toilet to pee standing",
+      label = "Use Toilet - Pee Standing",
       icon = "fa-solid fa-toilet",
     }
   },
@@ -45,7 +45,7 @@ end)
     {
       type = "client",
       event = "razed-toilet:useToiletPeeSitting",
-      label = "Use toilet to pee sitting",
+      label = "Use Toilet - Pee Sitting",
       icon = "fa-solid fa-toilet",
     }
   },
@@ -55,7 +55,7 @@ end)
 RegisterNetEvent('razed-toilet:useToiletPeeSitting')
 AddEventHandler('razed-toilet:useToiletPeeSitting', function()
   ExecuteCommand(
-    "e sit"
+    "e sitchair"
 )
 TriggerServerEvent("InteractSound_SV:PlayOnSource", "Pee", 0.3)
 QBCore.Functions.Progressbar('Pee', 'Peeing...', 16000, false, true, {
@@ -82,7 +82,7 @@ exports['qb-target']:AddTargetModel(toilets, {
   {
     type = "client",
     event = "razed-toilet:useToiletPoo",
-    label = "Use toilet to poo",
+    label = "Use Toilet - Poop",
     icon = "fa-solid fa-toilet",
   }
 },
@@ -112,4 +112,3 @@ QBCore.Functions.Progressbar('Poo', 'Pooing...', 16000, false, true, {
         TriggerServerEvent('hud:server:GainStress', Config.gainStress)  
 end)
 end)
-
