@@ -3,7 +3,7 @@ game "gta5"
 
 description "Razed's Toliets"
 
-author 'KLM#4160'
+author 'Razed Scripts'
 
 version '1.1'
 
